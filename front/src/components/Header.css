@@ -1,0 +1,44 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.header-body-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 8px;
+    margin: 0 20px;
+}
+
+h1 .header-logo {
+    text-decoration: none;
+    color: black;
+}
+
+.header-right {
+    display: flex;
+}
+
+.header-auth-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header-auth-list .header-auth-signin, .header-auth-list .header-auth-signup {
+    text-decoration: none;
+    
+    font-weight: 1000;
+}
+
+.header-auth-list .header-auth-signin {
+    color: red;
+}
+
+.header-auth-list .header-auth-signup {
+    color: blue;
+}

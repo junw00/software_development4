@@ -1,0 +1,42 @@
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-body-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.signin-input-wrap {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+
+
+/* return(
+        <div className="signin-container">
+            <Header/>
+            <div className="signin-body-wrap">
+                <div className="signin-body-header">
+                    <h3 className="signin-title">로그인</h3>
+                </div>
+                <div className="signin-input-wrap">
+                    <Input placeholder={"아이디"}/>
+                    <Input placeholder={"비밀번호"}/>
+                </div>
+                <div>
+                    <Button btnName={"로그인"}/>
+                </div>
+            </div>
+        </div>
+    ) */
